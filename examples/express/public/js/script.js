@@ -117,7 +117,7 @@ $(document).ready(function(){
 
       //geocode
       var geocodeQuery = $('#location').val().replace(/\s/g,'+');
-      $.getJSON('http://api.tiles.mapbox.com/v3/examples.map-20v6611k/geocode/' + geocodeQuery + '&return_location=true&callback=?', function(data){
+      $.getJSON('http://api.tiles.mapbox.com/v3/examples.map-20v6611k/geocode/' + geocodeQuery + '.json&return_location=true&callback=?', function(data){
         $('#locationForm input[type=submit]').removeAttr('disabled');
 
         if(data.features){
