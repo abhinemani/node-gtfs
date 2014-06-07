@@ -3,7 +3,7 @@ module.exports = {
   , agencies: [
       /* Put agency_key names from gtfs-data-exchange.com.  
       Optionally, specify a download URL to use a dataset not from gtfs-data-exchange.com */
-      { agency_key: 'metro-st-louis', url: 'ftp://www.metrostlouis.org/transit/google_transit.zip'}
+      { agency_key: 'metro-st-louis', url: 'http://metro-st-louis_20130916_1522.zip'}
 
     ]
 }
